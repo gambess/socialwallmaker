@@ -1,0 +1,17 @@
+# -------- Aplicación ------------
+
+/data/
+/data/*.php
+/data/cache_smarty/
+/vendor/
+/templates/compiled/*
+/conf/api_config_twitter.ini
+/conf/api_config_instagram.ini
+# --------- Editores -------------
+
+# sublimetext
+/*.sublime-project
+*.sublime-workspace
+
+# netbeans
+nbproject/*

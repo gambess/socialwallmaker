@@ -1,0 +1,98 @@
+/* css editor */
+/* Los selectores con el prefijo dev_ son estilos creados puntualmente por el equipo de desarrollo */
+
+th {text-align:center!important;}
+.user {text-align:center!important;}
+#contenedor{background: #fff;}
+.check  {text-align:center!important;}
+
+
+#fijo { position:fixed; width: 980px; z-index:1000;}
+#contenedor {
+    margin: 0 auto;
+    width: 980px;
+	padding:10px;
+	padding-top:0px;
+	border: solid 1px #CCC;
+	border-top: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0px 0px 6px #999;
+	-webkit-box-shadow: 0px 0px 6px #999;
+	box-shadow: 0px 0px 6px #999;
+	margin-bottom: 40px;
+}
+
+
+.nav-tabs { padding-bottom:0}
+
+.contenido_principal {padding-top: 54px; width: 980px;} 
+
+.contenido_principal  .ayuda_visual {border-top: solid 1px #f2f2f2; border-bottom: solid 1px #f2f2f2; padding: 10px 30px; margin: 20px 0px; background-color: #FFFFBF;}
+.contenido_principal  .ayuda_visual h2 {font: bold 16px Arial, Helvetica, sans-serif; color: #666; text-transform:uppercase;}
+.contenido_principal  .ayuda_visual p {font: normal 14px Arial, Helvetica, sans-serif; color: #666; text-shadow: 1px 1px #F5F5B0;}
+
+.contenido_principal  .dev_ayuda_tooltip {float: right; height: 22px; padding-top: 7px; margin-right: 6px; position: relative; cursor: pointer;}
+.contenido_principal  .dev_ayuda_tooltip img {float: right; width: 16px; height: 16px; display: block; position: relative;}
+
+.tooltip-inner {min-width: 200px; max-width: 400px;}
+.tooltip-inner p {font: normal 13px Arial, Helvetica, sans-serif; }
+
+.cce_cabecera {padding: 10px; background-color:#FFF; width: 960px;margin: 0px auto; height: 32px;}
+
+.cabecera .botones .botones_principales .boton_borrar {
+    background-color: #F20000;
+    background-image: -moz-linear-gradient(center bottom , #F20000 0%, #b20000 100%);
+    font-weight: bold;
+    padding:  5px 50px;}
+	
+.botones_principales input, .botones_principales a {
+    background-color: #00926C;
+    background-image: -moz-linear-gradient(center bottom , #235C9D 0%, #82B1A5 100%);
+    font-weight: bold;
+    padding:  5px 50px;}
+	
+.table tbody tr.success > td {
+    background-color: #DDD;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f2f2f2', endColorstr = '#bbb');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f2f2f2', endColorstr = '#bbb')";
+background-image: -moz-linear-gradient(top, #f2f2f2,#ddd);
+background-image: -ms-linear-gradient(top, #f2f2f2,#ddd);
+background-image: -o-linear-gradient(top, #f2f2f2,#ddd);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#f2f2f2), to(#bbb));
+background-image: -webkit-linear-gradient(top, #f2f2f2,#ddd);
+background-image: linear-gradient(top, #f2f2f2,#ddd);
+cursor: pointer;
+border-top: solid 1px #fff;
+}
+
+.table-condensed th, .table-condensed td {padding: 12px; border-right: dotted #DDD 1px;  border-top: dotted #DDD 1px;}
+
+.table-condensed thead tr { background-color: #f2f2f2;}
+
+.user a { font: bold 11px Tahoma, Geneva, sans-serif; color: #333; }
+.table tbody tr.warning > td {
+    background-color: #E5F4B6;
+}
+
+.table thead th { width:10%;}
+.table thead th +th { width:80%;}
+.table td { width:10%; word-break:break-all; word-wrap:break-word;}
+.table td +td { width:80%;}
+
+
+.fecha{ background: url(/especiales/2015/elecciones-generales/elpais20d/img/icon-time.png) 0 0 no-repeat; font-size: 12px; font-style: italic; padding-left: 18px; margin-top: 15px; line-height: 16px;}
+
+.dev_clear-input { position: relative; height: 30px; float: left; margin-right: 5px; }
+.dev_clear-input .clear { position: absolute; top: 6px; right: 6px; cursor: pointer; display: none; }
+.dev_clear-input:hover .clear { display: block; }
+
+.dev_buttons-container { margin-bottom: 10px; height: 30px; float: right; }
+.dev_buttons-container input { margin-left: 5px }
+
+.dev_notificaciones { display: none; }
+.bootbox-body ul li { list-style-type: initial }
+
+.dev_spinner_container {display: none;}
+.dev_spinner {margin: 100px auto; width: 200px; height: 20px; position: relative; text-align: center;}

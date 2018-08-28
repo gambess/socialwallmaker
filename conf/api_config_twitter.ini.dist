@@ -1,0 +1,11 @@
+[twitter]
+setting.oauth_access_token = "COMPLETAR AQUI"
+setting.oauth_access_token_secret = "COMPLETAR AQUI"
+setting.consumer_key = "COMPLETAR AQUI"
+setting.consumer_secret = "COMPLETAR AQUI"
+url = "https://api.twitter.com/1.1/search/tweets.json"
+query = "?q="
+requestMethod = "GET"
+numDatos = TWITTER_NUM_DATOS
+claveInicial = "twitter"
+class = "service/Twitter/twitter.php"

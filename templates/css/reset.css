@@ -1,0 +1,54 @@
+/* base font */
+html { font-size:62.5%; font-family: Arial, Helvetica, sans-serif; }
+body { margin:0; font-size:100%; } /*Estandar*/
+* html body { font-size:101%; } /*IE6*/
+*:first-child+html body { font-size:101%; } /*IE7*/
+
+/* Resets de textos */
+h1, h2, h3, h4, h5, h6, p, pre, blockquote { margin: 0; }
+ul, ol, dl, dt, dd { padding:0; margin:0; }
+
+ul,ol { list-style: none; }
+
+/* Reset de tablas */
+table { border-collapse: collapse; width:100%; font-size: 1em; }
+td { vertical-align: top; }
+caption, th { text-align: left; }
+
+/* Enlaces */
+a { text-decoration: none; outline:none;}
+a:hover { text-decoration: underline; }
+a img { border: none; }
+
+/* Formularios */
+form { margin:0; }
+fieldset { margin:0; padding:0; border: none; }
+legend { padding:0; }
+input, textarea, select { font-size: 1em; font-family: Arial, Helvetica, sans-serif; }
+
+address{font-style: normal;}
+
+/*
+	Clases genéricas
+************************************/
+
+/* estirar (clearfix Español) */
+.estirar:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.estirar { display:inline-block; }
+/* Hide from IE Mac \*/
+.estirar { display:block; }
+* html .estirar { height:1px; }
+/* End hide from IE Mac */
+
+/* Columnas */
+.izq, .col_i { float: left; display:inline; }
+.drcha, .col_d { float: right; display:inline; }
+
+/* Reemplazo de imagenes */
+.reemplazo{display: block; overflow: hidden; text-indent: -9999px;}

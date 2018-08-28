@@ -1,0 +1,212 @@
+@import url("reset.css");
+
+/* COMUNES */
+.centrar{width: 995px; margin: 0 auto;}
+
+/* transiciones */
+.trans, .trans_group a{-webkit-transition:all 0.3s ease-in-out;	-o-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out;}
+.trans1, .trans_group1 a{opacity: 1; filter: alpha (opacity=100);}
+.trans1:hover, .trans_group1 a:hover{opacity: .7; filter: alpha (opacity=70); text-decoration: none;}
+
+
+
+/* CABECERA */
+#cabecera{position: fixed; top: 0; width: 100%; z-index: 10; padding-bottom: 8px; background: url(../imagen/f_cabecera.png) no-repeat center bottom;}
+.home #cabecera{padding-bottom: 25px;}
+#cabecera .cont {background-color: #FFFFFF;margin-left: auto;margin-right: auto;}
+#cabecera .sup{background-color: #E4E4E4; padding: 20px 30px; position: relative; z-index: 2;}
+#cabecera .inf {background-color: #FFFFFF;padding: 25px 0;position: relative;}
+#cabecera  .logo-pais{float: left; margin-right: 206px;}
+#cabecera .centrar{width: 960px; margin: 0 auto;}
+/* compartir */
+#cabecera  #compartir{width: 173px; float: left; margin-top: 5px;}
+#cabecera  #compartir li{float: left; margin-left: 2px; }
+#cabecera  #compartir a{display: block; overflow: hidden; text-indent: -9999px; background: url(../imagen/compartir.png) no-repeat 0 0; width: 31px; height: 30px;}
+#cabecera  #compartir .eskup{background-position: 0 0;}
+#cabecera  #compartir .twitter{background-position: -33px 0;}
+#cabecera  #compartir .facebook{background-position: -65px 0;}
+#cabecera  #compartir .tuenti{background-position: -97px 0; width: 31px;}
+#cabecera  #compartir .google{background-position: -129px 0;}
+
+/* menú */
+#cabecera .menu{margin: 0 auto; text-align: center;}
+#cabecera .menu li{display: inline; font: normal 1.5em/1.2em 'roboto_condensedbold'; text-transform: uppercase; margin-left: 13px; padding-left: 18px; background: url(../imagen/sep_menu.png) no-repeat 0 center;}
+#cabecera .menu li:first-child{background: none; margin: 0; padding: 0;}
+#cabecera .menu li a{color: #959598; text-shadow: 1px 1px #FFF;}
+#cabecera .menu li.blank a{background: url(../imagen/externo.png) no-repeat right 5px; padding-right: 18px;}
+#cabecera .menu li.marcado a, #cabecera .menu li a:hover{color: #39393F; text-decoration: none;}
+
+/* patrocinador */
+#cabecera .patrocinador{position: absolute; right: 20px; top: 8px; float: right; width: 80px; height: 94px;}
+#cabecera .patrocinador a{width: 80px; height: 94px; display: block;}
+
+
+/* CONTENIDOS */
+#contenidos{padding-top: 64px; position: relative;}
+
+/* HOME
+========================*/
+/* PLAYER */
+.home #contenidos{background: url(../imagen/fondo.png) repeat-x 0 0;}
+#contenidos .player{ height: 448px; text-align: center;}
+#contenidos .player img{display: block;}
+/* INTRO */
+#contenidos .intro{padding: 35px 0 65px 0; text-align: center; border-bottom: 1px #EDEDED solid;}
+#contenidos .intro h1{font: bold 7.9em/.8em 'roboto_condensedbold'; text-transform: uppercase; color: #39393F; letter-spacing: -3px; margin-bottom: 30px;}
+#contenidos .intro h1 a, #contenidos .intro p a{color: #39393F;}
+#contenidos .intro p a:hover{text-decoration: none;}
+#contenidos .intro p{font: normal 1.4em/1.4em Arial, Helvetica, sans-serif; margin-bottom: 55px;}
+#contenidos .intro li{float: left; width: 235px; margin-left: 13px;}
+#contenidos .intro li:first-child{margin-left: 0;}
+#contenidos .intro img{display: block;}
+#contenidos .intro .mod-img{margin-bottom: 20px;}
+#contenidos .intro h2{
+	font: normal 1.8em/1em 'roboto_condensedbold';
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	height: 40px;
+}
+#contenidos .intro h2 a{color: #000;}
+#contenidos .intro .autor{font: normal 1.4em/1em 'roboto_condensedregular'; text-transform: uppercase; color: #999; margin-bottom: 0;}
+
+/* NOTICIAS */
+#contenidos .noticias {padding: 50px 0;}
+#contenidos .noticias ul{width: 838px; margin: 0 auto; text-align: center;}
+#contenidos .noticias li{font: normal 2em/1.2em 'roboto_condensedbold'; margin-left: 10px; padding-left: 16px; background: url(../imagen/bullet.png) no-repeat 0 10px; display: inline;}
+#contenidos .noticias li:first-child{background: none;}
+#contenidos .noticias li a{color: #303137; }
+
+/* EL MURO ENB HOME */
+.home #contenidos .twitter{padding-top: 65px; height: auto;}
+.home #contenidos .twitter p{margin-bottom: 30px;}
+.home #contenidos .twitter img{display: block;}
+.home #contenidos .twitter .centrar{margin-bottom: 0;}
+
+/* PARTICIPA */
+#participa{background: #0E0E10 url(../imagen/f_participa.jpg) no-repeat center 0; padding-top: 666px; text-align: center;}
+/* paso 1 */
+#participa .txt-registrado{font: normal 2.2em/1.2em 'roboto_condensedbold'; color: #868687; text-transform: uppercase; letter-spacing: -1px; margin-bottom: 20px;}
+#participa #bases .btn{width: 338px; margin: 0 auto 20px auto;}
+#participa #bases li{float: left; font: normal 10em/.8em 'roboto_condensedbold'; text-transform: uppercase; letter-spacing: -4px; margin-left: 4px;}
+#participa #bases li a{color: #000; background: url(../imagen/circulos.png) no-repeat 0 0; padding: 41px 0; width: 162px; text-align: center; display: block;}
+#participa #bases li a:hover{text-decoration: none;}
+#participa #bases li #no-registrado{background-position: -166px 0;}
+#participa .bases_legales{font: normal 1.2em/1em Arial, Helvetica, sans-serif; color: #878789; vertical-align: middle; margin-bottom: 21px;}
+#participa .bases_legales a{color: #878789;}
+#participa .bases_legales label{position: relative; top: -1px;}
+/* paso 2 */
+#participa .paso2{padding-top: 21px; margin-bottom: 175px; }
+#participa .paso2 h2{font: normal 5em/1.2em 'roboto_condensedbold'; color: #FFF; text-transform: uppercase; letter-spacing: -1px; margin-bottom: 15px;}
+#participa .paso2 p{font: normal 1.6em/1.4em Arial, Helvetica, sans-serif; color: #878789; margin-bottom: 60px;}
+#participa .paso2 form{position: relative; margin-bottom: 125px;}
+#participa .paso2 fieldset{background-color: #171719; padding: 30px 0 30px 60px; float: left; margin-left: 20px; width: 418px;}
+#participa .paso2 fieldset:first-child{margin-left: 0;}
+#participa .paso2 label{font: normal 1.2em/1em Arial, Helvetica, sans-serif; color: #868686; clear: left; display: block; margin-bottom: 10px; text-transform: uppercase; text-align: left; vertical-align: middle; cursor: pointer}
+#participa .paso2 input{margin-top: 0; position: relative; top: 2px; margin-right: 10px;}
+#participa .paso2 button{margin-top: 15px; display: block; background: url(../imagen/btn-participa.png) no-repeat 0 0; clear: both; border: none; width: 139px; text-align: center; padding: 57px 0; font: normal 2.2em/1.2em 'roboto_condensedbold'; color: #FFF; text-transform: uppercase; position: absolute; bottom: -105px; left: 430px; }
+#participa .paso2 button:hover{cursor: pointer;}
+#participa .paso2 .aviso{color: #878788; font-size: 1.2em; padding: 10px 0;}
+#participa .premio2{border-top: 1px #272728 solid; overflow: visible;}
+#participa .premio2 .cont{background: url(../imagen/premio.png) no-repeat 224px 0; padding-bottom: 60px; position: relative; }
+#participa .premio2  .mod-txt{background: url(../imagen/regalo.png) no-repeat 874px 0; padding-top: 388px; margin-top: -50px; position: relative;}
+#participa .premio2  .txt1{font: normal 3em/.8em 'roboto_condensedbold'; color: #F8B700; text-transform: uppercase;}
+#participa .premio2  .txt2{font: normal 4em/1.2em 'roboto_condensedbold'; color: #FFF; text-transform: uppercase; margin-bottom: 20px;}
+#participa .paso2 #mensajes p{font: normal 1em/1em 'roboto_condensedregular'; color: #FFF; margin-bottom: 0;}
+
+/* mensajes */
+#participa #mensajes{font: normal 1.8em/1em 'roboto_condensedregular'; color: #FFF;}
+/* bases legales */
+.sombra, .content-player{display:none;}
+.content_player{ position: absolute; z-index:100; left:50%; top:3467px; margin:0 0 0 -340px; width:680px; height: auto; display: none;}
+* html .content_player{ position: absolute;}
+.content_player h2 { font:bold 22px/24px Arial, Helvetica, sans-serif; color:#fff; margin-bottom:7px;}
+.content_player p { font:14px/16px Arial, Helvetica, sans-serif; color:#000; margin-bottom:14px;}
+.content_player p.autor { color:#fff; text-transform:uppercase;}
+body.con_player{ height:auto; overflow:hidden;}
+.content_player .inner { clear:both; width:612px; margin:0 auto; padding:12px 0 0; }
+.sombra{z-index:55; display:none; background:#000; position:absolute; left:0; top:0; height:4072px !important; width:7000px; opacity: 0.90; filter: alpha(opacity=90);}
+a.ampliar { color:#FFF; }
+.cont-bases { background-color: #FFF; padding:10px; height:500px; overflow:auto; }
+.cerrar{ float: right; display: inline; background-color:#FFBF00;color:#FFFFFF;font:bold 1.4em Arial,Helvetica,sans-serif;padding:10px 15px;text-transform:uppercase; -webkit-transition:all 0.3s ease-in-out;	-o-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out}
+.cerrar:hover{background-color: #000; text-decoration: none;}
+* html .cerrar { left:0;}
+#lipsum div{height: 1000px; overflow: scroll; padding: 20px; background-color: #FFF;}
+/* */
+
+/* PLAYER DE AUDIO */
+.audio{background: url(../imagen/disco_off.gif) no-repeat 0 0;}
+#player-audio{background-color: #393A40;}
+#player-audio  .txt-audios{background: url(../imagen/circulo-nota.png) no-repeat 0 0; display: block; overflow: hidden; text-indent: -9999px; position: absolute; top: 0; left: 30px; width: 102px; height: 102px; z-index: 100;}
+#player-audio .col-izq{float: left; padding: 135px 30px 20px 30px;  margin-top: -54px; width: 178px; position: relative;}
+#player-audio .col-der{float: right;}
+#player-audio .col-izq h2{font: normal 4.8em/1.15em 'roboto_condensedbold'; color: #FFF; text-transform: uppercase; border-bottom: 1px #333439 solid; padding-bottom: 20px; }
+#player-audio .col-izq li{font: normal 1.4em/.8em 'roboto_condensedregular'; color: #FFF; padding: 10px 0 10px 5px; border-top: 1px #4D4E53 solid; border-bottom: 1px #333439 solid;}
+#player-audio .col-izq li.ultimo{border-bottom: none;}
+#player-audio .col-izq li.marcado {background: url(../imagen/disco-marcado.png) no-repeat 160px center;}
+#player-audio .col-izq li a:hover, #player-audio .col-izq li.marcado a{color: #F8B700; text-decoration: none;}
+#player-audio .col-izq li a{color: #FFF; text-transform: uppercase;}
+#player-audio .col-der{background-color: #35353B; min-height: 735px; height: auto !important; height: 800px; padding: 93px 45px 55px 45px; width: 612px;}
+#player-audio .col-der img{float: left; position: relative; top: 4px; left: 4px;}
+#player-audio .col-der h3{font: normal 2.8em/1.15em 'roboto_condensedbold'; color: #FFF; float: right; text-transform: uppercase; padding-top: 135px;}
+/* player */
+#player-audio .col-der .player2{clear: both; padding-top: 25px; }
+#player-audio .col-der .player2 img{width: auto;}
+
+/* EL MURO DE SONIDO
+======================== */
+/* salida tweets */
+#contenidos .twitter{text-align: center; margin-bottom: 120px; padding-top: 30px; clear: both;  background: url(../imagen/f_cabecera.png) no-repeat center 0;}
+#contenidos .twitter .centrar{margin-bottom: 40px;}
+#contenidos .twitter h1{font: bold 8em/.8em 'roboto_condensedbold'; text-transform: uppercase; letter-spacing: -2px; margin-bottom: 20px;}
+#contenidos .twitter h1 a{color: #39393F;}
+#contenidos .twitter h2{font: normal 5em/.5em 'roboto_condensedbold'; color: #FFBF00;  letter-spacing: -2px; margin-bottom: 40px;}
+#contenidos .twitter h2 a{color: #FFBF00;}
+#contenidos .twitter p{font: normal 1.4em/1.4em Arial, Helvetica, sans-serif; width: 922px; margin: 0 auto;}
+#contenidos .twitter .centrar{position: relative;}
+#contenidos .twitter .logo-beatles{position: absolute; top: 296px; left: 400px;}
+#tweets{width:995px;display:block;margin:0 auto 20px auto;}
+#tweets  > li{float:left;display:block;height:30px;width:30px;font:bold 11px/30px Arial, Helvetica, sans-serif;margin:0 2px 2px 0;position:relative;}
+#tweets  > li.marcado{z-index: 2;}
+#tweets  > li.tweet_visible{z-index: 3;}
+#tweets  > li > span, #tweets .marcado > a{display:block;height:30px;width:30px;color:#fff;background:#DADBDC;border-radius:15px;text-align:center; text-indent: -9999px;}
+#tweets .marcado a{background:#FFBF00;}
+#tweets .marcado a a{background-color: blue;}
+#tweets  > li .tweet{width:200px;border:1px solid red;font:11px/12px Tahoma, Geneva, sans-serif;z-index:10;background:#fff;position:absolute;z-index:10;}
+#tweets  > li.marcado a:hover + .tweet{display:block;position:absolute;top:30px;left:10px;z-index:10;}
+#tweets  > .especiador a{background:#FFF;}
+
+/* tooltip tweet */
+#tweets .content{position: absolute; top: -30px; left: 50px; z-index: 102; width: 430px; display: none; }
+#tweets .derecha .content{left: -443px}
+#tweets .content .cont{background-color: #fff; border: 1px #DADBDC solid;border-radius: 4px;padding: 12px; position: relative;}
+#tweets .content  .mod-img{float: left; margin-right: 10px; background: url(../imagen/pico.png) no-repeat 0 21px; padding-left: 23px; margin-left: -22px;}
+#tweets .derecha .content  .mod-img{background: none;}
+#tweets .content  .mod-txt{display: table; height: 1%;}
+#tweets .derecha .content  .mod-txt{float: right; width: 340px; background: url(../imagen/pico_der.png) no-repeat 353px 21px; padding-right: 23px; margin-right: -22px; }
+#tweets .content a{background-color: transparent;}
+#tweets .content .stream-item-header{text-align: left;}
+#tweets .content .stream-item-header .account-group{float: left; }
+#tweets .content .stream-item-header img{border-radius: 4px;}
+#tweets .content .tweet-text{font: normal 1.3em/1.2em Arial, Helvetica, sans-serif; width: auto; text-align: left; color: #333; clear: left; padding-top: 5px;}
+#tweets .content .tweet-text a{text-transform: none; color: #F8B700;}
+#tweets .content  .fullname.account-group{font: bold 1.5em/1.2em Arial, Helvetica, sans-serif; float: left; margin-right: 3px; text-transform: uppercase; color: #000;}
+#tweets .content  .username.account-group{font: normal 1.1em/1.4em Arial, Helvetica, sans-serif; color: #999;float: left;}
+
+/* premio */
+#contenidos .premio {border-top: 1px #EAEAEB solid; border-bottom: 1px #EAEAEB solid; clear: both;}
+#contenidos .premio .mod-img{float: left; width: 300px; height: 300px; position: relative;}
+#contenidos .premio .mod-img img{position: absolute; top: -46px; left: 0;}
+#contenidos .premio .mod-txt{display: table; height: 1%; padding-top: 84px; background: url(../imagen/regalo.png) no-repeat 562px 0; position: relative; top: -50px;}
+#contenidos .premio h2{font: normal 5em/1em 'roboto_condensedlight'; color: #303137; margin-bottom: 45px; letter-spacing: -1px;}
+#contenidos .premio h2 strong{font-weight:normal; font-family: 'roboto_condensedbold';}
+#contenidos .premio p{font: normal 1.6em/1.3em Arial, Helvetica, sans-serif; margin-bottom: 10px; padding-left:4px;}
+
+/* */
+
+/* PIE */
+#pie {width: 580px; margin: 0 auto; padding-top: 70px;}
+#pie .sup{border-bottom: 1px #E3E3E3 solid; padding-bottom: 30px;}
+#pie .sup img{float: left; margin-right: 20px;}
+#pie  address{font: normal 11px Arial, Helvetica, sans-serif; color: #A9A9A9; padding-top: 16px; float: right; /* width: 426px;*/}
+#pie .inf{text-align: right; padding: 25px 0 70px 0;}
+#pie .inf p{font: normal 1.1em/1.4em Tahoma serif; color: #999;}

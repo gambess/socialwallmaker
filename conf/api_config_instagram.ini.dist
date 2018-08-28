@@ -1,0 +1,8 @@
+[instagram]
+setting.client_id = "COMPLETAR AQUI"
+setting.client_secret = "COMPLETAR AQUI"
+url = "COMPLETAR AQUI"
+query = "COMPLETAR AQUI"
+numDatos = TWITTER_NUM_INSTAGRAM
+claveInicial = "instagram"
+class = "service/Instagram/instagram.php"
